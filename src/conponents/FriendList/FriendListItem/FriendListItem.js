@@ -1,13 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const FriendListItem = ({ avatar, name, isOnline }) => {
+const FriendListItem = ({ friend }) => {
   return (
-    <>
-      <span className="status">{isOnline}</span>
-      <img className="avatar" src={avatar} alt={"foto of" + name} width="48" />
-      <p className="name">{name}</p>
-    </>
+    <li className="item">
+      <span className="status">{friend.isOnline}</span>
+      <img
+        className="avatar"
+        src={friend.avatar}
+        alt={"foto of" + friend.name}
+        width="48"
+      />
+      <p className="name">{friend.name}</p>
+    </li>
   );
 };
 FriendListItem.defaultProps = {
