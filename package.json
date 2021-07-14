@@ -1,6 +1,10 @@
 {
   "name": "react-hw-1",
   "homepage": "https://Mohara88s.github.io/react-hw-1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohara88s/react-hw-1.git"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
