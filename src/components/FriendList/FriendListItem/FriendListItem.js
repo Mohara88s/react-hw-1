@@ -5,7 +5,7 @@ import styles from './FriendListItem.module.css';
 
 const FriendListItem = ({ friend }) => {
   return (
-    <li className={styles.item}>
+    <>
       <span
         className={styles.status}
         data={friend.isOnline ? 'online' : 'offline'}
@@ -19,7 +19,7 @@ const FriendListItem = ({ friend }) => {
         width="48"
       />
       <p className={styles.name}>{friend.name}</p>
-    </li>
+    </>
   );
 };
 FriendListItem.defaultProps = {

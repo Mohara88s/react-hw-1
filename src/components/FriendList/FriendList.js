@@ -9,7 +9,9 @@ const FriendList = ({ friends }) => {
   return (
     <ul className={styles.friend__list}>
       {friends.map(friend => (
-        <FriendListItem key={friend.id} friend={friend} />
+        <li key={friend.id} className={styles.item}>
+          <FriendListItem friend={friend} />
+        </li>
       ))}
     </ul>
   );

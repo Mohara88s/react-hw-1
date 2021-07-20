@@ -1,0 +1,21 @@
+.friend__list {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid rgb(218, 225, 235);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25), 0 3px 3px rgba(0, 0, 0, 0.22);
+  margin-bottom: 5px;
+}
